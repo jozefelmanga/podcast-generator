@@ -1,4 +1,4 @@
-FROM ubuntu:20.04  # Consider using a specific version like 20.04 for stability
+FROM ubuntu:latest  # Consider using a specific version like 20.04 for stability
 
 # Install dependencies
 RUN apt-get update && apt-get install -y \
